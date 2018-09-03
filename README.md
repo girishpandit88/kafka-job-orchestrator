@@ -7,7 +7,6 @@ A RESTful service that accepts fully qualified job names and put it on a Kafka t
 ### Kafka Consumer
 A backend service that consumes from a Kafka topic, a job name, and execute that class on a separate background executor.
 
-
 ### Kafka UI Manager
 A RESTful service that gives details on Kafka topics. 
 
@@ -18,6 +17,8 @@ A RESTful service that gives details on Kafka topics.
 
 
 ### Starting the producer and consumer:
+
+![](img/kjo.mp4.gif)
 
 ```bash
 # Start the Kafka docker image
