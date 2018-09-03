@@ -1,0 +1,6 @@
+rootProject.name = 'kafka-job-manager'
+include 'producer'
+include 'consumer'
+include 'common'
+include 'kafka-ui-manager'
+

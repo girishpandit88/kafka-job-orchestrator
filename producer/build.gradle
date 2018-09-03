@@ -1,0 +1,13 @@
+apply plugin: 'java'
+apply plugin: 'org.springframework.boot'
+jar {
+    baseName = project.name
+    version = '1.0.0'
+}
+
+dependencies{
+    compile project(":common")
+    testCompile('org.springframework.boot:spring-boot-starter-test:1.5.4.RELEASE')
+    testCompile('log4j:log4j:1.2.17')
+    testCompile "org.springframework.kafka:spring-kafka-test:1.2.2.RELEASE"
+}

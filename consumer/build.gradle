@@ -1,0 +1,13 @@
+apply plugin: 'java'
+apply plugin: 'org.springframework.boot'
+jar {
+    baseName = project.name
+    version = '1.0.0'
+}
+dependencies{
+    compile project(":common")
+}
+
+springBoot{
+    mainClass="com.gp.job.consumer.manager.MainApp"
+}

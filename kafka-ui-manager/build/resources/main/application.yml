@@ -1,0 +1,12 @@
+server:
+  port: 8081
+
+kafka:
+  consumer:
+    bootstrap: localhost:9092
+    group: CliRunnerApp
+    topic: cliTopic
+    consumerThreads: 4
+    sessionTimeout: 15000
+    autoCommitInterval: 100
+    enableAutoCommit: true
