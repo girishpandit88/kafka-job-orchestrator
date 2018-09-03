@@ -18,7 +18,7 @@ A RESTful service that gives details on Kafka topics.
 
 ### Starting the producer and consumer:
 
-![](img/kjo.mov.gif)
+<img src="img/kjo.mov.gif" alt="drawing" width="1280" height="500" />
 
 ```bash
 # Start the Kafka docker image
