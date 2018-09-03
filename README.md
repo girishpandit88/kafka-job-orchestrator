@@ -29,7 +29,11 @@ $ docker-compose up -d
 # Starting producer
 ./gradlew producer:bootRun
 
-
 # Starting consumer
 ./gradlew consumer:bootRun
+
+# Submitting jobs:
+$ curl http://localhost:8080/job?name=com.gp.job.jobs.CliJob&args= # execute the CliJob class
+
+$ http://localhost:8080/job?name=com.gp.job.jobs.LongRunningJob&args= # execute the LongRunningJob class
 ```
