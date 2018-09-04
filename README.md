@@ -36,4 +36,15 @@ $ docker-compose up -d
 $ curl http://localhost:8080/job?name=com.gp.job.jobs.CliJob&args= # execute the CliJob class
 
 $ http://localhost:8080/job?name=com.gp.job.jobs.LongRunningJob&args= # execute the LongRunningJob class
+
+# Getting job status:
+$ curl http://localhost:8080/job/status/{jobId}
+```
+```json
+{
+  "id": "dd19bc93-26d5-4ddb-a40e-18ab4fc2ab91",
+  "className": "com.gp.job.jobs.LongRunningJob",
+  "output": "I'm a long running job waiting for future to get waiting for future to get waiting for future to get waiting for future to get Hello ! 2018-09-03 17:37:18.975  INFO 33027 --- [pool-1-thread-2] c.g.j.consumer.manager.WorkUnitConsumer  : Result of job operation : null ",
+  "error": null,
+}
 ```

@@ -10,3 +10,8 @@ kafka:
     sessionTimeout: 15000
     autoCommitInterval: 100
     enableAutoCommit: true
+
+dynamodb:
+  endpoint: "http://localhost:8000"
+  tablePrefix: ""
+  signingRegion: ""

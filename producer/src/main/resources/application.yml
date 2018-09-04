@@ -5,3 +5,8 @@ kafka:
   producer:
     bootstrap: localhost:9092
     topic: jobTopic
+
+dynamodb:
+  endpoint: "http://localhost:8000"
+  tablePrefix: ""
+  signingRegion: ""

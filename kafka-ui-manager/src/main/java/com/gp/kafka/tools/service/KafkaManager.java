@@ -1,7 +1,7 @@
 package com.gp.kafka.tools.service;
 
 import com.google.common.collect.Lists;
-import com.gp.job.common.consumer.KafkaConsumerProperties;
+import com.gp.job.common.kafka.consumer.KafkaConsumerProperties;
 import com.gp.kafka.tools.model.NodeDetails;
 import com.gp.kafka.tools.model.PartitionDetails;
 import com.gp.kafka.tools.model.TopicDetails;

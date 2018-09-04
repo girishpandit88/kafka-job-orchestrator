@@ -1,6 +1,6 @@
-package com.gp.job.common.consumer;
+package com.gp.job.common.kafka.consumer;
 
-import com.gp.job.common.dao.WorkUnit;
+import com.gp.job.common.kafka.dao.WorkUnit;
 import org.apache.kafka.clients.consumer.ConsumerConfig;
 import org.apache.kafka.common.serialization.Deserializer;
 import org.apache.kafka.common.serialization.StringDeserializer;

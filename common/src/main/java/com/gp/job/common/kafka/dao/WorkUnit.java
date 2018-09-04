@@ -1,4 +1,4 @@
-package com.gp.job.common.dao;
+package com.gp.job.common.kafka.dao;
 
 import com.fasterxml.jackson.annotation.JsonCreator;
 import com.fasterxml.jackson.annotation.JsonProperty;

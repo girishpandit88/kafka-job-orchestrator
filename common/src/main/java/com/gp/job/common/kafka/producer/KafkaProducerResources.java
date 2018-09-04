@@ -1,7 +1,7 @@
-package com.gp.job.common.producer;
+package com.gp.job.common.kafka.producer;
 
 
-import com.gp.job.common.dao.WorkUnit;
+import com.gp.job.common.kafka.dao.WorkUnit;
 import org.apache.kafka.clients.producer.ProducerConfig;
 import org.apache.kafka.common.serialization.Serializer;
 import org.apache.kafka.common.serialization.StringSerializer;
