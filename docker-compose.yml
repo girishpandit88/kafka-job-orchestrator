@@ -16,3 +16,10 @@ services:
       KAFKA_CREATE_TOPICS: "jobTopic:4:1"
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock
+
+  dynamodb:
+    container_name: ddb
+    build:
+      local/dynamodb
+    ports:
+      - "8000:8000"

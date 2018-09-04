@@ -1,4 +1,4 @@
-package com.gp.job.common.producer;
+package com.gp.job.common.kafka.producer;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.stereotype.Component;

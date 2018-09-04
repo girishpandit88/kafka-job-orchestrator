@@ -1,6 +1,7 @@
 buildscript {
     ext {
         springBootVersion = '1.5.4.RELEASE'
+        amazonaws_sdk_version = '1.11.401'
     }
     repositories {
         mavenCentral()

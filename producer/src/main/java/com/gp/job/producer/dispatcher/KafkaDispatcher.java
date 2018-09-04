@@ -1,7 +1,7 @@
 package com.gp.job.producer.dispatcher;
 
-import com.gp.job.common.dao.WorkUnit;
-import com.gp.job.common.producer.KafkaProducerProperties;
+import com.gp.job.common.kafka.dao.WorkUnit;
+import com.gp.job.common.kafka.producer.KafkaProducerProperties;
 import org.apache.kafka.clients.producer.RecordMetadata;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

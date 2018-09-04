@@ -1,4 +1,4 @@
-package com.gp.job.common.consumer;
+package com.gp.job.common.kafka.consumer;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.stereotype.Component;
