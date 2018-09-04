@@ -12,9 +12,11 @@ A RESTful service that gives details on Kafka topics.
 
 
 ## Things to do (updated 09-02-2018 17:50:00)
-<del> - Status of submitted job </del> addressed by https://github.com/girishpandit88/kafka-job-orchestrator/pull/1
+addressed by [#1](https://github.com/girishpandit88/kafka-job-orchestrator/pull/1)
 
-<del> - Status of finished job </del> addressed by https://github.com/girishpandit88/kafka-job-orchestrator/pull/1
+<del> - Status of submitted job </del>
+
+<del> - Status of finished job </del>
 
 
 ### Starting the producer and consumer:
