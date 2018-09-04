@@ -11,9 +11,10 @@ A backend service that consumes from a Kafka topic, a job name, and execute that
 A RESTful service that gives details on Kafka topics. 
 
 
-## Things to do
- - Status of submitted job
- - Status of finished job
+## Things to do (updated 09-02-2018 17:50:00)
+<del> - Status of submitted job </del> addressed by https://github.com/girishpandit88/kafka-job-orchestrator/pull/1
+
+<del> - Status of finished job </del> addressed by https://github.com/girishpandit88/kafka-job-orchestrator/pull/1
 
 
 ### Starting the producer and consumer:
