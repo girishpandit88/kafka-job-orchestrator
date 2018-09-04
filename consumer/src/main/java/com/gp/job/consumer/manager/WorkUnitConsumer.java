@@ -59,7 +59,7 @@ public class WorkUnitConsumer {
 				PrintStream errPr = new PrintStream(err);
 				System.setOut(outPr);
 				System.setErr(errPr);
-				final Object invoke = main.invoke(null, (Object) params);
+				main.invoke(null, (Object) params);
 				outPr.flush();
 				errPr.flush();
 				exitCode = 0;
